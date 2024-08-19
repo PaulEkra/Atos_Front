@@ -293,8 +293,8 @@ th {
 
 .grayscale {
     filter: grayscale(100%);
-    pointer-events: none; /* Désactiver l'interaction */
-    opacity: 0.5; /* Rendre la zone plus sombre */
+    pointer-events: none; 
+    opacity: 0.5;
 }
 
 @keyframes fadeIn {

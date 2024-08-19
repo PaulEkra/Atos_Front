@@ -1,4 +1,4 @@
-const deleteButton = document.getElementById('deleteButton');
+    const deleteButton = document.getElementsByClassName('deleteButton');
     const alertBox = document.querySelector('.alert');
     const dashboard = document.querySelector('.dashboard');
     // Fonction pour afficher le modal
@@ -13,7 +13,7 @@ const deleteButton = document.getElementById('deleteButton');
             dashboard.classList.remove('grayscale');
         }
 
-        deleteButton.addEventListener('click', onModal);
+        Array.from(deleteButton).forEach(element => element.addEventListener('click', onModal));
 
 
         // Événement pour le bouton Non
