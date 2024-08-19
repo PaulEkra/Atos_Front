@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Etab - Modifier Professeur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="cdn/uicons-regular-straight.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside>
+            <h2><i class="fas fa-leaf"></i>Mon Etab</h2>
+            <a href="teachers.html" class="return"><i class="fas fa-arrow-left"></i>Retour</a>
+
+            <nav>
+                <ul>
+                    <li><i class="fas fa-grip-horizontal"></i><a href="home.html">  Tableau de bord</a></li>
+                    <li><i class="fi fi-rs-users-class"></i><a href="students.html"> Élèves</a></li>
+                    <li  class="active"><i class="fas fa-chalkboard-teacher"></i> Professeurs</li>
+                    <li><i class="fa-regular fa-user"></i> <a href="users.html"> Utilisateurs</li></a>
+                    <li><i class="fas fa-file-alt"></i><a href="rapports.html"> Rapport</li></a>
+                </ul>
+            </nav>
+            <a href="login.html">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>Déconnexion
+            </a>
+        </aside>
+        <main>
+            <h2>Modifier le professeur - 738</h2>
+            <form>
+                <div>
+                    <input type="text" placeholder="Nom" value="Kouakou">
+                    <select>
+                        <option> Selectionnez une matière</option>
+                        <option>Math</option>
+                        <option>Physique</option>
+                        <option>EPS</option>
+                        <option selected>Anglais</option>
+                        <option>SVT</option>
+                        <option>Philosophie</option>
+                        <option>Français</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="text" placeholder="Prénoms" value="Flora">
+                    <input type="number" placeholder="Téléphone" value="0123456789">
+                </div>
+                <div>
+                    <label><input type="radio" name="genre" value="Homme"> Homme</label>
+                    <label><input type="radio" name="genre" checked value="Femme"> Femme</label>
+                </div>
+                <div>
+                    <input type="date" placeholder="Date de naissance" value="1990-03-22">
+                    <input  type="text" placeholder="Ville" value="Bouaké">
+
+                </div>
+                <div>
+                    <button type="button" >Annuler</button>
+                    <button type="submit">Enregistrer</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
