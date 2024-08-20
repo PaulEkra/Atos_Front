@@ -1,8 +1,8 @@
-/* body {
-    font-family: Arial, sans-serif;
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-} */
+}
 
 .dashboard {
     display: flex;
@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
 }
 
 main {
@@ -130,25 +130,25 @@ input, select {
 
 
 form {
-    max-width: 800px; /* Largeur maximale du formulaire */
-    margin: auto; /* Centrer le formulaire horizontalement */
-    display: grid; /* Utiliser la grille CSS */
-    grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
-    gap: 1rem; /* Espacement entre les colonnes */
+    max-width: 800px;
+    margin: auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
 }
 
 form > div {
-    grid-column: span 2; /* Assurer que chaque champ de formulaire occupe toute la largeur de la colonne */
+    grid-column: span 2; 
 }
 
 form input, form select {
-    width: 80%; /* Assurer que les champs de formulaire s'étendent sur toute la largeur disponible */
+    width: 80%; 
 }
 
 form div {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* Espacement entre les éléments */
+    gap: 0.5rem; 
 }
 
 form button {
@@ -173,11 +173,11 @@ input, select {
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
-    margin: 0.5rem 0; /* Ajusté pour réduire l'espace */
+    margin: 0.5rem 0; 
 }
 
 input[type="text"], input[type="number"], select {
-    grid-column: span 1; /* Chaque champ occupe une colonne */
+    grid-column: span 1; 
 }
 
 input[type="radio"] {
@@ -186,7 +186,7 @@ input[type="radio"] {
 }
 
 button {
-    grid-column: span 2; /* Les boutons occupent les deux colonnes */
+    grid-column: span 2; 
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     background-color: #4CAF50;
@@ -204,7 +204,7 @@ button:hover {
 }
 
 h2 {
-    grid-column: span 2; /* Le titre occupe les deux colonnes */
+    grid-column: span 2; 
     text-align: center;
 }
 
